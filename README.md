@@ -7,3 +7,5 @@ The basic algorithm is unstable, but takes about $\frac{1}{1000}^{th}$ of the ti
 find a rod length that works and still end up beating the currently accepted solution.
 
 In the paper, I argue that the time-complexity of the fundamental algorithm is linear, but scales more like $\sqrt{N}$. Future work is to play with pytorch to see how fast it can go on a GPU.
+
+The accompanying notebook has made a few advancements from the strategy discussed in the paper, but not really worth digging into. The big difference is that the `planky` function defined in the notebook actually works like you would hope, i.e. it just gives a single shape that seems like a good guess.
