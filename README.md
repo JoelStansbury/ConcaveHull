@@ -4,7 +4,7 @@ This repo demostrates an algorithm for traversing 2D point cloud data in order t
 
 It can handle some sparsity, but if the rod lenth is too short it can get stuck sometimes.
 
-![Demo](images/array.gif)
+![Demo](images/f_anim.gif)
 
 
 It is pretty robust, and much faster than alphashape, when given continuous volumes.
