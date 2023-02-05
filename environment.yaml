@@ -1,0 +1,16 @@
+name: hull
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python
+  - pip
+  # UI
+  - jupyterlab
+  - ipywidgets
+  # Processing
+  - numpy <=1.19.3
+  - matplotlib
+  - opencv
+  - alphashape
