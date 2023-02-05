@@ -12,7 +12,7 @@ Here is an example of how it might break.
 ![Demo](images/f_broken_anim.gif)
 
 
-This is rare, enough that it can usually incrementing the rod length can usually solve the issue.
+This is rare, enough that incrementing the rod length can usually solve the issue.
 
 This is less of a problem with continuous volumes, though I have seen it happen once.
 
