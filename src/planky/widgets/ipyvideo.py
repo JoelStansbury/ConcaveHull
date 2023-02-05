@@ -34,7 +34,7 @@ class Video(HBox):
         h, w, *_ = arr.shape
         arr = arr.copy()
         arr -= arr.min()
-        arr *= 255 / arr.max()
+        arr = (arr * 255 / arr.max())
         arr = arr.astype("uint8")
 
         
