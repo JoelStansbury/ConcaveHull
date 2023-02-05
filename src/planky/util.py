@@ -8,7 +8,7 @@ def next_start_angle(x,y):
     to include the previous location unless it is the only
     option.
     """
-    a = angle_to(x, y) + 3*np.pi/4
+    a = angle_to(x, y) + np.pi*(0.6)
     if a<0:
         a += 2*np.pi
     return a
