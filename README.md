@@ -9,7 +9,7 @@ It can handle some sparsity, but if the rod lenth is too short it can get stuck 
 
 It is pretty robust, and much faster than alphashape, when given continuous volumes.
 
-![big_arrow_results](images/big_arrow_results.png)
+![big_arrow_results](images/big_arrow_results.PNG)
 
 The performance is roughly 100 times faster than alphashape. The lead does get larger with more points, so the complexity is better than alphashape, but isn't quite hitting the performance I think it should. I expected the growth to be roughly proportional to the length of the border (i.e. ~$\sqrt{N}$). Experimentally it does not quite reach that, but it is close.
 
