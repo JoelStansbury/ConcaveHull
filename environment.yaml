@@ -2,6 +2,7 @@ name: hull
 
 channels:
   - conda-forge
+  - pytorch
 
 dependencies:
   - python
@@ -14,3 +15,4 @@ dependencies:
   - matplotlib
   - opencv
   - alphashape
+  - pytorch
