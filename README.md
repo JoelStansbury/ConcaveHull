@@ -1,5 +1,8 @@
 # Planky
 This repo demostrates an algorithm for traversing 2D point cloud data in order to obtain a bounding polygon.
+The basic algorithm is to simulate a rod pivoting around one of the points we expect to lie on the outer edge. Once the rod hits another point,
+change the pivot to the new point. Continue until the original point is visited (or until a cycle is detected).
+
 
 
 ## Behavior
