@@ -24,6 +24,8 @@ The performance is roughly 100 times faster than alphashape. The lead does get l
 
 `big_arrow.png` has roughly 17 times as many points as `arrow.png`, alphashape takes ~17 times as long on `big_arrow` which is in keeping with the reported $N\log{N}$ complexity. Planky takes roughly 6.5 times as long on `big_arrow`, which is not quite $\sqrt{N}$ (maybe it is memory read/write that is inflating this)
 
+(3/7/2023) I think this was due to casting to an `np.array`, if the point cloud is already an array than I think the complexity was closer to the expected N**0.5. Need to revisit this 
+
 ## DEVELOPMENT
 - (If you don't have it already) Install `Mambaforge` from https://conda-forge.org/miniforge/ _(Anaconda is also fine)_
 - Open up a conda terminal.<br>
