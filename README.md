@@ -37,4 +37,7 @@ The performance is roughly 100 times faster than alphashape. The lead does get l
 
 ```bash
     cd PATH/TO/REPO
+    mamba env create -f environment.yml -p ./.venv
+    conda activate ./.venv
+    jupyter lab
 ```
